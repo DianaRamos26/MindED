@@ -586,7 +586,8 @@ body {
 
  .enter-login-btn {
   background: linear-gradient(135deg, #7fffd4, #6bd1f3); /* Gradiente */
-  padding: 6px 29px;          /* Espaçamento */
+  margin-left: 3%; /* Espaçamento do botão para a direita */
+  padding: 14px 40px;          /* Espaçamento */
   font-size: 1.1rem;          /* Tamanho */
   font-weight: bold;          /* Negrito */
   border-radius: 40px;        /* Bordas */
@@ -596,8 +597,12 @@ body {
   box-shadow: 0 8px 25px rgba(0,0,0,0.4); /* Sombra */
   cursor: pointer;            /* Clique */
   transition: all 0.3s ease;  /* Transição */
-  max-width: 160px;
-  margin: 0 3px;
+}
+
+.enter-login-btn:hover {
+  background: linear-gradient(135deg, #b9a6f9, #7fffd4); /* Gradiente */
+  transform: scale(1.05);     /* Aumenta no hover */
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5); /* Sombra */
 }
 
 .login-form {
